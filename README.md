@@ -27,11 +27,11 @@ ejemplo_específico:
 Vamos a analyzar juntos los resultados.
 
 Una vez que hayamos decidido criterios para eliminar adaptadores y limpiar las secuencias, vamos a utilizar dos herramientas que funcionan de manera integrada para eliminar secuencias o fragmentos de secuencia que no se ajusten a nuestros criterios minimos de calidad.
-TrimGalore ()
-Cutadapt ()
+TrimGalore (https://www.bioinformatics.babraham.ac.uk/projects/trim_galore/)
+Cutadapt (https://cutadapt.readthedocs.io/en/stable/#)
 
 ```bash
-my_trim_galore --output_dir path_to_Trimmed_data_out \
+my_trim_galore --output_dir my_trimed_data/ \
                   --quality 28 \
                   --illumina \
                   --phred33 \
@@ -41,7 +41,7 @@ my_trim_galore --output_dir path_to_Trimmed_data_out \
                   --clip_R1 10 \
                   --clip_R2 10 \
                   --paired \
-                  path_to_fastq_files/read_1.fastq.gz \
-                  path_to_fastq_files/read_2.fastq.gz
+                  Purple_Early_1_GTCCGC_S8_L001_R1_001.fastq.gz \
+                  Purple_Early_1_GTCCGC_S8_L001_R2_002.fastq.gz
 ```
 
