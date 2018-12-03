@@ -1,8 +1,12 @@
 # Regenec_Genomica_español
 Este es un repositorio en español donde estaré actualizando información acerca de herramientas de uso común para el análisis de datos genómicos
 
+### Si encuentran un icono en la ventana izquierda llamado "regenec_cornejo" no hacer este paso
+
 Antes de comenzar. Abran el programa de la caja virtual (VirtualBox Manager). En el menu, hagan click en "Archivo" y seleccionen la opción de "Importar aplicación..." y navegen hasta el Escritorio (donde probablemente este el archivo que copiamos) y seleccionen el archivo: "regenec_cornejo".
- Esto creara un pequeño icono en la ventana izquierda del programa llamado regenec_cornejo. Si hacen doble click en ese icono, esto abrira la maquina virtual (espero).
+
+
+Esto creara un pequeño icono en la ventana izquierda del programa llamado regenec_cornejo. Si hacen doble click en ese icono, esto abrira la maquina virtual (espero).
 
 ## Analysis de Calidad de las Secuencias
 
