@@ -8,6 +8,8 @@ Las instrucciones en cajas seran aquella que pueden copiar y pegar en el termina
 
 La herramienta que usaremos para analyzar la calidad de las secuencias es FastQC (https://www.bioinformatics.babraham.ac.uk/projects/fastqc/)
 
+Una vez que hayamos iniciado la sesion en nuestra "maquina virtual", van a abrir un terminal y van a utlizar los siguientes comandos.
+
 ejemplo general:
 ```bash
   cd regenec_project/data/
@@ -22,3 +24,24 @@ ejemplo_específico:
   cd regenec_project/data/
   fastqc --noextract --nogroup --outdir ./ Purple_Early_1_GTCCGC_S8_L001_R1_001.fastq.gz
 ```
+Vamos a analyzar juntos los resultados.
+
+Una vez que hayamos decidido criterios para eliminar adaptadores y limpiar las secuencias, vamos a utilizar dos herramientas que funcionan de manera integrada para eliminar secuencias o fragmentos de secuencia que no se ajusten a nuestros criterios minimos de calidad.
+TrimGalore ()
+Cutadapt ()
+
+```bash
+my_trim_galore --output_dir path_to_Trimmed_data_out \
+                  --quality 28 \
+                  --illumina \
+                  --phred33 \
+                  --fastqc_args "--nogroup --noextract --outdir ../fastqc" \
+                  --stringency 6 \
+                  --length 60 \
+                  --clip_R1 10 \
+                  --clip_R2 10 \
+                  --paired \
+                  path_to_fastq_files/read_1.fastq.gz \
+                  path_to_fastq_files/read_2.fastq.gz
+```
+
