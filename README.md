@@ -38,11 +38,11 @@ TrimGalore (https://www.bioinformatics.babraham.ac.uk/projects/trim_galore/)
 Cutadapt (https://cutadapt.readthedocs.io/en/stable/#)
 
 ```bash
-my_trim_galore --output_dir my_trimed_data/ \
+/home/repository_software/trim_galore.0.4.3/trim_galore --output_dir my_trimed_data/ \
                   --quality 28 \
                   --illumina \
                   --phred33 \
-                  --fastqc_args "--nogroup --noextract --outdir ../fastqc" \
+                  --fastqc_args "--nogroup --noextract --outdir ./fastqc_postTrim" \
                   --stringency 6 \
                   --length 60 \
                   --clip_R1 10 \
