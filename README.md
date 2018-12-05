@@ -3,9 +3,11 @@ Este es un repositorio en español donde estaré actualizando información acerc
 
 ### Si encuentran un icono en la ventana izquierda llamado "regenec_cornejo" no hacer este paso
 
+Esto se hace solo la primera vez! Luego de copiar la caja virtual en su máquina:
+
 Antes de comenzar. Abran el programa de la caja virtual (VirtualBox Manager). En el menu, hagan click en "Archivo" y seleccionen la opción de "Importar aplicación..." y navegen hasta el Escritorio (donde probablemente este el archivo que copiamos) y seleccionen el archivo: "regenec_cornejo".
 
-
+Una vez que la máquina esta instalada siempre se puede abrir el programa de la maquina virtual de la siguiente manera:
 Esto creara un pequeño icono en la ventana izquierda del programa llamado regenec_cornejo. Si hacen doble click en ese icono, esto abrira la maquina virtual (espero).
 
 ## Analysis de Calidad de las Secuencias
